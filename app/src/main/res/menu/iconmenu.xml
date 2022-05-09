@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Actions" />
+
+    <item android:id="@+id/menu_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="home"
+        />
+
+    <item android:title="Video calling"
+        android:id="@+id/videoCall"
+        android:icon="@drawable/ic_baseline_videocam_24"/>
+
+    <item android:icon="@drawable/ic_baseline_chat_24"
+        android:title="Chatting"
+        android:id="@+id/chatting"/>
+
+    <item android:id="@+id/bmi"
+        android:title="BMI"
+        android:icon="@drawable/ic_baseline_bmi_new_24"/>
+
+    <item android:icon="@drawable/ic_baseline_directions_run_24"
+        android:title="Step Counter"
+        android:id="@+id/stepCounter"/>
+
+    <item android:id="@+id/emergency"
+        android:title="EMERGENCY"
+        android:icon="@drawable/ic_baseline_visibility_24"/>
+
+    <item android:id="@+id/logout"
+        android:icon="@drawable/ic_baseline_power_settings_new_24"
+        android:title="Log out"/>
+    <item android:id="@+id/menu_setting"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="setting"/>
+
+    <item android:title="Communicate"/>
+
+    <item android:icon="@drawable/ic_baseline_wb_sunny_24"
+        android:title="About the app"
+        android:id="@+id/aboutTheApp"/>
+
+    <item android:id="@+id/Share"
+        android:title="Share the app"
+        android:icon="@drawable/ic_baseline_share_24"/>
+</menu>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".registration"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/swasthyalogo" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click for registration"
+            android:textStyle="italic|bold"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="#131313"
+            />
+
+        <Button
+            android:id="@+id/patient_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/purple_200"
+            android:padding="13dp"
+            android:elevation="15dp"
+            android:text="Patient Registration "
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:shadowColor="@color/black"
+            app:cornerRadius="40dp"
+            />
+
+        <Button
+            android:id="@+id/doctor_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/light_pink"
+            android:elevation="15dp"
+            android:layout_marginTop="5dp"
+            android:padding="13dp"
+            app:cornerRadius="40dp"
+            android:textStyle="bold"
+            android:shadowColor="@color/black"
+            android:text="doctor registration" />
+
+        <TextView
+            android:id="@+id/AlreadyHaveAcc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold|italic"
+            android:text="Already have an account? LogIn"
+            android:textColor="#7777EA" />
+
+    </LinearLayout>
+
+</LinearLayout>

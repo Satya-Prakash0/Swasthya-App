@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/textstyle2"
+    android:gravity="center"
+    tools:context=".videoCalling">
+
+    <EditText
+        android:id="@+id/meetingId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:ems="10"
+        android:background="@drawable/videomeeting"
+        android:inputType="textPersonName"
+        android:elevation="20dp"
+        android:shadowColor="@color/black"
+        android:hint="Meeting id"
+         />
+
+    <Button
+        android:id="@+id/JoinMeetBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7AF4DC"
+        android:layout_marginTop="10dp"
+        android:padding="13dp"
+        android:paddingLeft="20dp"
+        android:elevation="20dp"
+        android:shadowColor="@color/light_green"
+        android:text="Join Meet"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:cornerRadius="20dp" />
+</LinearLayout>

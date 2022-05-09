@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Swasthya_2.O</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string-array name="timeframes">
+        <item>Select your availability time</item>
+        <item>7-9AM</item>
+        <item>9-11AM</item>
+        <item>11-1AM</item>
+        <item>2-4AM</item>
+        <item>4-6AM</item>
+    </string-array>
+
+    <string-array name="department">
+        <item>Select department</item>
+        <item>Dentistry</item>
+        <item>Surgery</item>
+    </string-array>
+
+    <string-array name="Specialization">
+        <item>Select specialization</item>
+        <item>General</item>
+        <item>Periodontist</item>
+    </string-array>
+
+    <string-array name="selectSpecialist">
+        <item>Select specialist</item>
+        <item>General</item>
+        <item>Periodontist</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Choose Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="doctor_consult">Use this service to interact,discuss,take advice and resolve your concerns
+     with the trained doctors and physicians over the world.</string>
+</resources>

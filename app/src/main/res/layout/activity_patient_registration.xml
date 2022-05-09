@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".patient_registration"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/patient_profile_image"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center|fill_vertical"
+            android:src="@drawable/swasthyalogo"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="5dp" />
+        <Button
+            android:id="@+id/patientImgUpload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#84E1C7"
+            android:layout_marginTop="20dp"
+            android:padding="13dp"
+            android:elevation="20dp"
+            android:shadowColor="#373636"
+            android:text="Upload Image"
+            android:textStyle="bold"
+            app:cornerRadius="50dp"
+            />
+
+        <EditText
+            android:id="@+id/patient_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/person"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="username"
+            />
+        <EditText
+            android:id="@+id/registration_IdNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_baseline_article_24"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Registration Id Number"
+            android:inputType="number" />
+        <EditText
+            android:id="@+id/patient_registration_phoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="phone number"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/patient_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/email"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="someone@gmail.com"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/patientPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/lock"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/patientRegNow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginTop="20dp"
+            android:padding="13dp"
+            android:elevation="10dp"
+            android:text="Register now"
+            android:textStyle="bold"
+            app:cornerRadius="30dp"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

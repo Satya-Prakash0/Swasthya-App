@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".doctor_registration"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/dr_profile_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center|fill_vertical"
+            android:src="@drawable/swasthyalogo"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="5dp" />
+        <Button
+            android:id="@+id/drImgUpload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#84E1C7"
+            android:layout_marginTop="15dp"
+            android:padding="13dp"
+            android:elevation="20dp"
+            android:shadowColor="#373636"
+            android:text="Upload Image"
+            android:textStyle="bold"
+            app:cornerRadius="50dp"
+            />
+
+        <EditText
+            android:id="@+id/dr_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/person"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="username"
+            />
+        <EditText
+            android:id="@+id/Dr_IdNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_baseline_article_24"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Registration Id Number"
+            android:inputType="number" />
+        <EditText
+            android:id="@+id/dr_phoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="phone number"
+            android:inputType="number" />
+
+
+        <EditText
+            android:id="@+id/Dr_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/email"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="someone@gmail.com"
+            android:inputType="textEmailAddress" />
+
+
+        <EditText
+            android:id="@+id/drPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/lock"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword" />
+        <Spinner
+            android:id="@+id/availabilitySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:entries="@array/timeframes"
+            android:padding="10dp"
+            />
+        <Spinner
+            android:id="@+id/departmentSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:entries="@array/department"
+            android:padding="10dp"
+            />
+        <Spinner
+            android:id="@+id/specializationSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:entries="@array/Specialization"
+            android:padding="10dp"
+            />
+
+        <Button
+            android:id="@+id/DrRegBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/purple_200"
+            android:layout_marginTop="20dp"
+            android:padding="13dp"
+            android:elevation="10dp"
+            android:text="Register now"
+            android:textStyle="bold"
+            app:cornerRadius="30dp"
+            />
+
+
+    </LinearLayout>
+
+</ScrollView>

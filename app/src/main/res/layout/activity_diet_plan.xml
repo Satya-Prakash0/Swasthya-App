@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    tools:context=".DietPlan">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="top"
+        app:srcCompat="@drawable/diet_food" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Healthy Diet Plan" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="Breakfast: "
+            android:textStyle="bold|italic"
+            android:elevation="10dp"
+            android:textColor="@color/black"
+            android:background="@drawable/textstyle"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/breakfast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textstyle2"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text=" " />
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="Lunch: "
+            android:textStyle="bold|italic"
+            android:elevation="10dp"
+            android:textColor="@color/black"
+            android:background="@drawable/textstyle"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/lunch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textstyle2"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text=" " />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="Snacks: "
+            android:textStyle="bold|italic"
+            android:elevation="10dp"
+            android:textColor="@color/black"
+            android:background="@drawable/textstyle"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/snacks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textstyle2"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text=" " />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:text="Dinner: "
+            android:textStyle="bold|italic"
+            android:elevation="10dp"
+            android:textColor="@color/black"
+            android:background="@drawable/textstyle"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/dinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textstyle2"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text=" " />
+
+</LinearLayout>
