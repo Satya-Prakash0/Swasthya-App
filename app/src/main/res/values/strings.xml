@@ -6,40 +6,71 @@
 
     <string-array name="timeframes">
         <item>Select your availability time</item>
-        <item>7-9AM</item>
-        <item>9-11AM</item>
-        <item>11-1AM</item>
-        <item>2-4AM</item>
-        <item>4-6AM</item>
+        <item>7-9 AM</item>
+        <item>9-11 AM</item>
+        <item>11-12 AM</item>
+        <item>2-4P M</item>
+        <item>4-6 PM</item>
     </string-array>
 
     <string-array name="department">
         <item>Select department</item>
         <item>Dentistry</item>
         <item>Surgery</item>
+        <item>Cardiology</item>
+        <item>Orthopedics</item>
+        <item>Neurology</item>
+        <item>Ophthalmology</item>
+        <item>Otolaryngology</item>
+        <item>Gastroenterology</item>
+        <item>Pediatrics</item>
     </string-array>
 
     <string-array name="Specialization">
         <item>Select specialization</item>
         <item>General</item>
         <item>Periodontist</item>
+        <item>Orthodontist</item>
+        <item>Endodontist</item>
+        <item>Prosthodontist</item>
+        <item>Oral Surgeon</item>
+        <item>Pediatric Dentist</item>
+        <item>Cardiologist</item>
+        <item>Neurologist</item>
+        <!-- Add more specialization items as needed -->
     </string-array>
+
 
     <string-array name="selectSpecialist">
         <item>Select specialist</item>
         <item>General</item>
         <item>Periodontist</item>
+        <item>Orthodontist</item>
+        <item>Endodontist</item>
+        <item>Prosthodontist</item>
+        <item>Oral and Maxillofacial Surgeon</item>
+        <item>Pediatric Dentist</item>
+        <item>Oral Pathologist</item>
+        <item>Oral Radiologist</item>
+        <item>Public Health Dentist</item>
+        <item>Oral Medicine Specialist</item>
+        <item>Other</item>
     </string-array>
+
 
     <string-array name="gender">
         <item>Choose Gender</item>
         <item>Male</item>
         <item>Female</item>
+        <item>Other</item>
     </string-array>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_maps">MapsActivity</string>
 
     <string name="doctor_consult">Use this service to interact,discuss,take advice and resolve your concerns
      with the trained doctors and physicians over the world.</string>
+
+    <string name="appdescription">Swasthya App provides a range of essential healthcare services, making it convenient for you to access medical assistance anytime, anywhere.\n\nFeatures:\n\n• Interactive Map: Find nearby hospitals and clinics on the map.\n\n• Video Call Consultation: Connect with healthcare professionals through video calls for remote medical advice.\n\n• Real-time Chat: Chat with doctors and medical experts to get instant answers to your health queries.\n\n• Allotment Booking: Easily book appointments and manage your medical appointments.\n\nFor any inquiries or assistance, feel free to contact us at:\nEmail: satya1122001@gmail.com</string>
 </resources>

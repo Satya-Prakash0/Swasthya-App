@@ -1,8 +1,5 @@
 package com.example.swasthya_2o;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -10,6 +7,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class bodyMassIndex extends AppCompatActivity {
 
@@ -70,6 +69,7 @@ public class bodyMassIndex extends AppCompatActivity {
 
                 else {
                     Intent intent = new Intent(bodyMassIndex.this, DietPlan.class);
+                    //intent.putExtra("EXTRA_MESSAGE",BMIVal);
                     startActivity(intent);
                 }
             }
