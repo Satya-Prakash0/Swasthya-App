@@ -49,6 +49,7 @@
             android:ems="10"
             android:hint="username"
             />
+
         <EditText
             android:id="@+id/registration_IdNumber"
             android:layout_width="match_parent"

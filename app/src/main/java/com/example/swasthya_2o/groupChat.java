@@ -1,15 +1,15 @@
 package com.example.swasthya_2o;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
@@ -33,7 +33,7 @@ public class groupChat extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_group_chat);
 
-        profile_image = findViewById(R.id.Gprofile_image);
+       // profile_image = findViewById(R.id.Gprofile_image);
         send_message = findViewById(R.id.Gsend_message);
         user_name = findViewById(R.id.Guser_name);
         chat_message_section = findViewById(R.id.Gmessage_typing);
@@ -50,7 +50,7 @@ public class groupChat extends AppCompatActivity {
         final chatAdapter chatadapter = new chatAdapter(messageModelArrayList, this);
         chatting_RecyclerView.setAdapter(chatadapter);
         final String senderId = auth.getUid();
-        user_name.setText("Friends Group");
+        user_name.setText("Doctor Consultancy");
 
         send_message.setOnClickListener(new View.OnClickListener() {
             @Override
