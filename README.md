@@ -15,7 +15,7 @@ Swasthya-App seamlessly combines advanced technology and healthcare expertise to
 
   # Download
 
-### 📲 [Download the App](https://drive.google.com/file/d/1Q6viLJ8aOx2uDJrffKdMaT5VAVGX6XCH/view?usp=sharing)
+### 📲 [Download the App](https://drive.google.com/file/d/10-jcQF9NjjQ1WSktMxNe9AkpC4miJIBQ/view?usp=sharing)
 
 ## Screenshots
 
